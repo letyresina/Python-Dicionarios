@@ -8,7 +8,7 @@
 pessoas = {}
 
 while len(pessoas) < 5:
-    cpf = int(input("Informe o CPF (somente números!): "))
+    cpf = input("Informe o CPF: ")
     nome = input("Informe o nome do portador do CPF: ")
     if cpf not in pessoas:
         pessoas[cpf] = nome
